@@ -1,6 +1,6 @@
 export default [
   {
-    title: 'Home',
+    title: 'Colorguessr',
     route: 'home',
     icon: 'HomeIcon',
   },

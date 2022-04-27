@@ -12,13 +12,27 @@ const router = new VueRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: () => import('@/views/Home.vue'),
+      name: 'ModeFreeplay',
+      component: () => import('@/views/ModeFreeplay.vue'),
       meta: {
-        pageTitle: 'Home',
+        pageTitle: 'Colorguessr',
         breadcrumb: [
           {
-            text: 'Home',
+            text: 'ModeFreeplay',
+            active: true,
+          },
+        ],
+      },
+    },
+    {
+      path: '/blind',
+      name: 'ModeBlind',
+      component: () => import('@/views/ModeBlind.vue'),
+      meta: {
+        pageTitle: 'Colorguessr',
+        breadcrumb: [
+          {
+            text: 'ModeBlind',
             active: true,
           },
         ],

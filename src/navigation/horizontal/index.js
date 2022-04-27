@@ -4,7 +4,7 @@ export default [
     icon: 'FileIcon',
     children: [
       {
-        title: 'Home',
+        title: 'Colorguessr',
         route: 'home',
         icon: 'HomeIcon',
       },
