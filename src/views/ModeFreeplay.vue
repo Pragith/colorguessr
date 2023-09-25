@@ -150,6 +150,9 @@
         </div>
       </b-card-body>
     </b-card>
+
+    <br><br>
+    <session-board></session-board>
   </div>
 </template>
 
@@ -159,10 +162,12 @@ import VueSlider from 'vue-slider-component'
 import Ripple from 'vue-ripple-directive'
 import { BTab, BTabs, BCard, BCardHeader, BCardTitle, BDropdown, BDropdownItem, BCardBody, BRow, BCol, BCardText, BFormSelect, BFormSelectOption, BFormGroup, BFormInput,  BButtonGroup, BButton } from 'bootstrap-vue'
 import { $themeColors } from '@themeConfig'
+import SessionBoard from '@/session/SessionBoard'
 
 
 export default {
   components: {
+    SessionBoard,
     VueSlider,
     //VueApexCharts,
     BTab, BTabs,
